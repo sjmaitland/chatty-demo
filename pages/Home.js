@@ -7,10 +7,15 @@ import {
   Container,
   Button
 } from 'react-bootstrap';
+import PropTypes from 'prop-types';
 
 
 
 export default class HomePage extends Component {
+  static propTypes = {
+    history: PropTypes.object,
+  };
+  
   render() {
     return(
       <div className="home">
