@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "description": "Basic chat app using React.js and Firebase, based on the tutorial at CSS-Tricks (https://css-tricks.com/building-a-real-time-chat-app-with-react-and-firebase/)",
-
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
@@ -13,12 +12,12 @@
     "@testing-library/user-event": "^7.1.2",
     "babel-loader": "^8.1.0",
     "bootstrap": "^4.4.1",
-    "firebase": "^7.14.1",
+    "firebase": "^8.6.2",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.0",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1"
+    "react-scripts": "^4.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
